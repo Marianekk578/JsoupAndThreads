@@ -41,6 +41,8 @@ public class JsoupExample {
                 String src = element.absUrl("src");
                 if (src.contains("skarpetki"))
                     System.out.println(src);
+                else
+                    System.out.println(doc.outerHtml());
             }
         } catch (IOException e) {
             e.printStackTrace();
