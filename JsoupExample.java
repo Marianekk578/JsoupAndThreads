@@ -42,7 +42,7 @@ public class JsoupExample {
                 if (src.contains("skarpetki"))
                     System.out.println(src);
                 else
-                    System.out.println(doc.outerHtml());
+                    System.out.println("there are no skarpetki in here :(");
             }
         } catch (IOException e) {
             e.printStackTrace();
