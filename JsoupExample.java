@@ -39,7 +39,7 @@ public class JsoupExample {
             Elements img = doc.getElementsByTag("img");
             for (Element element : img) {
                 String src = element.absUrl("src");
-                if (src.contains("skarpet"))
+                if (src.contains("skarpetki"))
                     System.out.println(src);
             }
         } catch (IOException e) {
